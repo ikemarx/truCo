@@ -12,6 +12,10 @@ vector<Carta*>* inicializarBaralho();
 void embaralhar(vector<Carta*>* baralho);
 
 void jogar() {
+    Jogador* jogador1 = new Jogador();
+    Jogador* jogador2 = new Jogador();
+    Jogador* jogador3 = new Jogador();
+    Jogador* jogador4 = new Jogador();
     vector<Carta*>* baralho = inicializarBaralho();
     embaralhar(baralho);
     darCartas(baralho, jogador1, jogador2, jogador3, jogador4);
