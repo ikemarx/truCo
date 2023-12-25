@@ -1,3 +1,5 @@
+#include "Carta.h"
+
 class Jogador {
 private:
     int posicao;
@@ -5,4 +7,6 @@ private:
 public:
     Jogador();
     ~Jogador();
+    int getPosicao();
+    void setPosicao(int posicao);
 };
