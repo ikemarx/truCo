@@ -5,14 +5,13 @@ class Carta {
 private:
     int valor;
     int naipe;
-    bool isCoringa;
 public:
     Carta(int valor, int naipe);
     ~Carta();
     int getValor();
+    int getNaipe();
     void setValor(int valor);
-    void setIsCoringa(bool isCoringa);
-    bool getIsCoringa();
+    void setNaipe(int naipe);
 };
 
 #endif
