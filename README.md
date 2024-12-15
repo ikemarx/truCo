@@ -1,2 +1,2 @@
 # truCo
-### truco in C
+### truco in C++
